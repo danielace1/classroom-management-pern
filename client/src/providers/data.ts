@@ -5,6 +5,7 @@
 //   apiURL: API_URL,
 // });
 
+import { MOCK_SUBJECTS } from "@/constants";
 import {
   BaseRecord,
   DataProvider,
@@ -21,8 +22,8 @@ export const dataProvider: DataProvider = {
     }
 
     return {
-      data: [],
-      total: 0,
+      data: MOCK_SUBJECTS as unknown as TData[],
+      total: MOCK_SUBJECTS.length,
     };
   },
 

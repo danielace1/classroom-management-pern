@@ -46,8 +46,8 @@ const SubjectsList = () => {
     columns: useMemo<ColumnDef<Subject>[]>(
       () => [
         {
-          id: "code",
-          accessorKey: "code",
+          id: "courseCode",
+          accessorKey: "courseCode",
           size: 100,
           header: () => <p className="column-title ml-2">Code</p>,
           cell: ({ getValue }) => <Badge>{getValue<string>()}</Badge>,
@@ -82,7 +82,7 @@ const SubjectsList = () => {
         },
         {
           id: "description",
-          accessorKey: "desc",
+          accessorKey: "description",
           size: 300,
           header: () => <p className="column-title">Description</p>,
           cell: ({ getValue }) => (
