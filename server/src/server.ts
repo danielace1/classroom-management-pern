@@ -6,6 +6,9 @@ import subjectsRoute from "./routes/subjects";
 const PORT = 8000;
 const app = express();
 
+if (!process.env.CLIENT_URL)
+  throw new Error("CLIENT_URL is not set in .env file");
+
 app.use(
   cors({
     origin: process.env.CLIENT_URL,
