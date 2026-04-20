@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import "dotenv/config";
 
 import securityMiddleware from "./middleware/security";
 import subjectsRoute from "./routes/subjects";
