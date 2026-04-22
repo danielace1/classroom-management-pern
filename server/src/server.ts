@@ -4,6 +4,8 @@ import "dotenv/config";
 
 import securityMiddleware from "./middleware/security";
 import subjectsRoute from "./routes/subjects";
+import { toNodeHandler } from "better-auth/node";
+import { auth } from "./lib/auth";
 
 const PORT = 8000;
 const app = express();
@@ -18,6 +20,9 @@ app.use(
     credentials: true,
   }),
 );
+
+app.all("/api/auth/*splat", toNodeHandler(auth));
+
 app.use(express.json());
 
 app.use(securityMiddleware);
