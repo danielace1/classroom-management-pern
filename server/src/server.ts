@@ -8,6 +8,8 @@ import { toNodeHandler } from "better-auth/node";
 
 import securityMiddleware from "./middleware/security.js";
 import subjectsRoute from "./routes/subjects.js";
+import usersRoute from "./routes/users.js";
+import classesRoute from "./routes/classes.js";
 
 import { auth } from "./lib/auth.js";
 
@@ -32,6 +34,8 @@ app.use(express.json());
 app.use(securityMiddleware);
 
 app.use("/api/subjects", subjectsRoute);
+app.use("/api/users", usersRoute);
+app.use("/api/classes", classesRoute);
 
 app.get("/", (_req, res) => {
   res.send("Classroom Management API is running");
