@@ -1,0 +1,159 @@
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "events"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::prototype.addListener 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "http"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::createServer 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Server 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::request 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::get 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "https"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::createServer 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Server 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::request 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::get 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "http2"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::createSecureServer 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Http2ServerRequest.prototype.setTimeout 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Http2ServerResponse.prototype.end 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Http2ServerResponse.prototype.setTimeout 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Http2ServerResponse.prototype.createPushResponse 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "net"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Server.prototype.getConnections 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Server.prototype.close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Socket.prototype.setTimeout 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Socket.prototype.write 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Socket.prototype.connect 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::createConnection 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Server.prototype.listen 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "fs"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::access 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::ftruncate 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::mkdir 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::mkdtemp 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::readdir 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::readFile 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::readlink 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::realpath 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::truncate 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::appendFile 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::symlink 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::copyFile 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::open 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::writeFile 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::chmod 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::fchmod 
+[10/5/2026 0:47:54] [INFO] lchmod is undefined in module::fs 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::link 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::rename 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::chown 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::fchown 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::lchown 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::futimes 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::utimes 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::exists 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::fdatasync 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::fstat 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::fsync 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::lstat 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::stat 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::rmdir 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::unlink 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::read 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::write 
+[10/5/2026 0:47:54] [INFO] realpath.native is undefined in module::fs 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "dns"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::lookupService 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::lookup 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolve 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolve4 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolve6 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolveCname 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolveMx 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolveNaptr 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolveNs 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolvePtr 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolveSoa 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolveSrv 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolveTxt 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::resolveAny 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::reverse 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "crypto"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::pbkdf2 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::randomBytes 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::randomFill 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::generateKeyPair 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::scrypt 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "domain"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Domain.prototype.bind 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Domain.prototype.intercept 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "zlib"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Deflate.prototype.close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Inflate.prototype.close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Gzip.prototype.close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Gunzip.prototype.close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::DeflateRaw.prototype.close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::InflateRaw.prototype.close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Unzip.prototype.close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Deflate.prototype.flush 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Inflate.prototype.flush 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Gzip.prototype.flush 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Gunzip.prototype.flush 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::DeflateRaw.prototype.flush 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::InflateRaw.prototype.flush 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Unzip.prototype.flush 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Deflate.prototype.params 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::deflate 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::deflateRaw 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::gunzip 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::gzip 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::inflate 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::inflateRaw 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::unzip 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "child_process"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::exec 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::execFile 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "cluster"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::disconnect 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Worker.prototype.send 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "process"
+[10/5/2026 0:47:54] [INFO] send is undefined in module::process 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::nextTick 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "dgram"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Socket.prototype.bind 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Socket.prototype.close 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Socket.prototype.send 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::createSocket 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "tls"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::connect 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::TLSSocket.prototype.renegotiate 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "stream"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Writable.prototype.write 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Writable.prototype.end 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::finished 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::pipeline 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "global"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::setImmediate 
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::setTimeout 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "inspector"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Session.prototype.post 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "worker_threads"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Worker.prototype.terminate 
+[10/5/2026 0:47:54] [INFO] Instrumenting module:: "readline"
+[10/5/2026 0:47:54] [INFO] Instrumenting function ::Interface.prototype.question 
+[10/5/2026 0:47:54] [INFO] Dependencies : {"@arcjet/inspect":"^1.4.0","@arcjet/node":"^1.4.0","@neondatabase/serverless":"^1.0.2","apminsight":"^5.4.0","better-auth":"^1.6.7","cors":"^2.8.6","dotenv":"^17.4.2","drizzle-orm":"^0.45.1","express":"^5.2.1"} 
+[10/5/2026 0:47:54] [INFO]  No time limit restriction for response code ::911 
+[10/5/2026 0:47:54] [INFO] Application not hosted in Kubernetes. 
+[10/5/2026 0:47:54] [INFO] old log file deleted: D:\git projects\classroom-management-pern\server\apminsightdata\logs\apminsight_agent_logs_10_5_2026_0_34_32_856_16500.log 
+[10/5/2026 0:47:54] [ERROR] HTTP request error: socket hang up 
+[10/5/2026 0:47:55] [ERROR] HTTP request error: socket hang up 
+[10/5/2026 0:47:55] [INFO] Application not hosted in AWS. 
+[10/5/2026 0:47:55] [ERROR] HTTP request error: socket hang up 
+[10/5/2026 0:47:55] [INFO] Application not hosted in Azure 
+[10/5/2026 0:47:55] [ERROR] HTTP request error: getaddrinfo ENOTFOUND metadata.google.internal 
+[10/5/2026 0:47:55] [INFO] Application not hosted in GCP 
+[10/5/2026 0:47:56] [ERROR] HTTP request error: socket hang up 
+[10/5/2026 0:47:56] [INFO] Application not hosted in docker. 
+[10/5/2026 0:47:56] [INFO] Application not hosted in AWS_Fargate 
+[10/5/2026 0:47:56] [INFO] intiating /arh/connect request to plusinsight.site24x7.in:443 
+[10/5/2026 0:47:57] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":911,"instance-info":{"instanceid":"2212082cbc6f172dd329519425503ed8"},"agent_specific_info":{"transaction.grouping":"","transaction.skip.patterns":"","webtransaction.trace.external.components.count.threshold":30,"bgtransaction.trace.threshold":5,"webtransaction.trace.request.headers.record":false,"normalize.dboperation":true,"bgtransaction.tracking.enabled":false,"transaction.grouping.by.position":"","transaction.keyword.skip.grouping":"","tags":"","webtransaction.trace.input.params.record":false,"bgtransaction.trace.enabled":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","exceptions.ignore":"","transaction.key.transactions":"","webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","application.group.name":"Classroom Management PERN_SmartGroup","http.errors.ignore":"","http.errors.track":"","transaction.prefix.grouping":""},"s247_cluster_name":7,"custom_config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"cloud.instance.cleanup.threshold":7,"transaction.tracestore.size":30,"last.modified.time":1776881913623,"transaction.trace.threshold":2,"show.instance.port.number":true,"metricstore.bgmetric.bucket.size":100,"transaction.trace.enabled":true,"autoupgrade.enabled":false,"transaction.trace.sql.stacktrace.threshold":3,"transaction.tracking.request.interval":1,"metricstore.dbmetric.bucket.size":500,"metricstore.metric.bucket.size":250,"sql.capture.enabled":true,"apdex.threshold":0.5},"collector-info":{"port":"443","host":"plusinsight.site24x7.in"},"app_id":"4STHfwqVlL","config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"transaction.grouping":"","cloud.instance.cleanup.threshold":7,"bgtransaction.trace.threshold":5,"bgtransaction.tracking.enabled":false,"transaction.keyword.skip.grouping":"","bgtransaction.trace.enabled":false,"autoupgrade.enabled":false,"exceptions.ignore":"","transaction.key.transactions":"","transaction.trace.sql.stacktrace.threshold":3,"application.group.name":"Classroom Management PERN_SmartGroup","http.errors.track":"","transaction.skip.patterns":"","last.modified.time":1776881913623,"transaction.trace.threshold":2,"webtransaction.trace.external.components.count.threshold":30,"webtransaction.trace.request.headers.record":false,"show.instance.port.number":true,"normalize.dboperation":true,"transaction.grouping.by.position":"","tags":"","transaction.trace.enabled":true,"webtransaction.trace.input.params.record":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","transaction.tracking.request.interval":1,"webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","http.errors.ignore":"","sql.capture.enabled":true,"apdex.threshold":0.5,"transaction.prefix.grouping":""}}}
+[10/5/2026 0:47:57] [CRITICAL] received response code : "MANAGE_AGENT"

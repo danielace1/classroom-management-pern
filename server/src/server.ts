@@ -10,6 +10,9 @@ import securityMiddleware from "./middleware/security.js";
 import subjectsRoute from "./routes/subjects.js";
 import usersRoute from "./routes/users.js";
 import classesRoute from "./routes/classes.js";
+import departmentRoute from "./routes/departments.js";
+import enrollmentsRoute from "./routes/enrollments.js";
+import statsRoute from "./routes/stats.js";
 
 import { auth } from "./lib/auth.js";
 
@@ -31,11 +34,14 @@ app.all("/api/auth/*splat", toNodeHandler(auth));
 
 app.use(express.json());
 
-app.use(securityMiddleware);
+// app.use(securityMiddleware);
 
 app.use("/api/subjects", subjectsRoute);
 app.use("/api/users", usersRoute);
 app.use("/api/classes", classesRoute);
+app.use("/api/departments", departmentRoute);
+app.use("/api/stats", statsRoute);
+app.use("/api/enrollments", enrollmentsRoute);
 
 app.get("/", (_req, res) => {
   res.send("Classroom Management API is running");
