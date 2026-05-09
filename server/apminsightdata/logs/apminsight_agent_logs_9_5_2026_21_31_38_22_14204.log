@@ -1,0 +1,424 @@
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "events"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::prototype.addListener 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "http"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::createServer 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Server 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::request 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::get 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "https"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::createServer 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Server 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::request 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::get 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "http2"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::createSecureServer 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Http2ServerRequest.prototype.setTimeout 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Http2ServerResponse.prototype.end 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Http2ServerResponse.prototype.setTimeout 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Http2ServerResponse.prototype.createPushResponse 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "net"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Server.prototype.getConnections 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Server.prototype.close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Socket.prototype.setTimeout 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Socket.prototype.write 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Socket.prototype.connect 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::createConnection 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Server.prototype.listen 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "fs"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::access 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::ftruncate 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::mkdir 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::mkdtemp 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::readdir 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::readFile 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::readlink 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::realpath 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::truncate 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::appendFile 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::symlink 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::copyFile 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::open 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::writeFile 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::chmod 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::fchmod 
+[9/5/2026 21:31:38] [INFO] lchmod is undefined in module::fs 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::link 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::rename 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::chown 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::fchown 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::lchown 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::futimes 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::utimes 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::exists 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::fdatasync 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::fstat 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::fsync 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::lstat 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::stat 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::rmdir 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::unlink 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::read 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::write 
+[9/5/2026 21:31:38] [INFO] realpath.native is undefined in module::fs 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "dns"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::lookupService 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::lookup 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolve 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolve4 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolve6 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolveCname 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolveMx 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolveNaptr 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolveNs 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolvePtr 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolveSoa 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolveSrv 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolveTxt 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::resolveAny 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::reverse 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "crypto"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::pbkdf2 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::randomBytes 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::randomFill 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::generateKeyPair 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::scrypt 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "domain"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Domain.prototype.bind 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Domain.prototype.intercept 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "zlib"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Deflate.prototype.close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Inflate.prototype.close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Gzip.prototype.close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Gunzip.prototype.close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::DeflateRaw.prototype.close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::InflateRaw.prototype.close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Unzip.prototype.close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Deflate.prototype.flush 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Inflate.prototype.flush 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Gzip.prototype.flush 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Gunzip.prototype.flush 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::DeflateRaw.prototype.flush 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::InflateRaw.prototype.flush 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Unzip.prototype.flush 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Deflate.prototype.params 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::deflate 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::deflateRaw 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::gunzip 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::gzip 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::inflate 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::inflateRaw 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::unzip 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "child_process"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::exec 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::execFile 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "cluster"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::disconnect 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Worker.prototype.send 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "process"
+[9/5/2026 21:31:38] [INFO] send is undefined in module::process 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::nextTick 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "dgram"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Socket.prototype.bind 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Socket.prototype.close 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Socket.prototype.send 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::createSocket 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "tls"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::connect 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::TLSSocket.prototype.renegotiate 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "stream"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Writable.prototype.write 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Writable.prototype.end 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::finished 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::pipeline 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "global"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::setImmediate 
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::setTimeout 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "inspector"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Session.prototype.post 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "worker_threads"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Worker.prototype.terminate 
+[9/5/2026 21:31:38] [INFO] Instrumenting module:: "readline"
+[9/5/2026 21:31:38] [INFO] Instrumenting function ::Interface.prototype.question 
+[9/5/2026 21:31:38] [INFO] Dependencies : {"@arcjet/inspect":"^1.4.0","@arcjet/node":"^1.4.0","@neondatabase/serverless":"^1.0.2","apminsight":"^5.4.0","better-auth":"^1.6.7","cors":"^2.8.6","dotenv":"^17.4.2","drizzle-orm":"^0.45.1","express":"^5.2.1"} 
+[9/5/2026 21:31:38] [INFO]  No time limit restriction for response code ::911 
+[9/5/2026 21:31:38] [INFO] Application not hosted in Kubernetes. 
+[9/5/2026 21:31:38] [INFO] old log file deleted: D:\git projects\classroom-management-pern\server\apminsightdata\logs\apminsight_agent_logs_5_5_2026_22_26_37_110_31836.log 
+[9/5/2026 21:31:38] [ERROR] HTTP request error: socket hang up 
+[9/5/2026 21:31:39] [ERROR] HTTP request error: socket hang up 
+[9/5/2026 21:31:39] [INFO] Application not hosted in AWS. 
+[9/5/2026 21:31:39] [ERROR] HTTP request error: socket hang up 
+[9/5/2026 21:31:39] [INFO] Application not hosted in Azure 
+[9/5/2026 21:31:40] [ERROR] HTTP request error: getaddrinfo ENOTFOUND metadata.google.internal 
+[9/5/2026 21:31:40] [INFO] Application not hosted in GCP 
+[9/5/2026 21:31:40] [ERROR] HTTP request error: socket hang up 
+[9/5/2026 21:31:40] [INFO] Application not hosted in docker. 
+[9/5/2026 21:31:40] [INFO] Application not hosted in AWS_Fargate 
+[9/5/2026 21:31:40] [INFO] intiating /arh/connect request to plusinsight.site24x7.in:443 
+[9/5/2026 21:31:42] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":911,"instance-info":{"instanceid":"2212082cbc6f172dd329519425503ed8"},"agent_specific_info":{"transaction.grouping":"","transaction.skip.patterns":"","webtransaction.trace.external.components.count.threshold":30,"bgtransaction.trace.threshold":5,"webtransaction.trace.request.headers.record":false,"normalize.dboperation":true,"bgtransaction.tracking.enabled":false,"transaction.grouping.by.position":"","transaction.keyword.skip.grouping":"","tags":"","webtransaction.trace.input.params.record":false,"bgtransaction.trace.enabled":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","exceptions.ignore":"","transaction.key.transactions":"","webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","application.group.name":"Classroom Management PERN_SmartGroup","http.errors.ignore":"","http.errors.track":"","transaction.prefix.grouping":""},"s247_cluster_name":7,"custom_config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"cloud.instance.cleanup.threshold":7,"transaction.tracestore.size":30,"last.modified.time":1776881913623,"transaction.trace.threshold":2,"show.instance.port.number":true,"metricstore.bgmetric.bucket.size":100,"transaction.trace.enabled":true,"autoupgrade.enabled":false,"transaction.trace.sql.stacktrace.threshold":3,"transaction.tracking.request.interval":1,"metricstore.dbmetric.bucket.size":500,"metricstore.metric.bucket.size":250,"sql.capture.enabled":true,"apdex.threshold":0.5},"collector-info":{"port":"443","host":"plusinsight.site24x7.in"},"app_id":"4STHfwqVlL","config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"transaction.grouping":"","cloud.instance.cleanup.threshold":7,"bgtransaction.trace.threshold":5,"bgtransaction.tracking.enabled":false,"transaction.keyword.skip.grouping":"","bgtransaction.trace.enabled":false,"autoupgrade.enabled":false,"exceptions.ignore":"","transaction.key.transactions":"","transaction.trace.sql.stacktrace.threshold":3,"application.group.name":"Classroom Management PERN_SmartGroup","http.errors.track":"","transaction.skip.patterns":"","last.modified.time":1776881913623,"transaction.trace.threshold":2,"webtransaction.trace.external.components.count.threshold":30,"webtransaction.trace.request.headers.record":false,"show.instance.port.number":true,"normalize.dboperation":true,"transaction.grouping.by.position":"","tags":"","transaction.trace.enabled":true,"webtransaction.trace.input.params.record":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","transaction.tracking.request.interval":1,"webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","http.errors.ignore":"","sql.capture.enabled":true,"apdex.threshold":0.5,"transaction.prefix.grouping":""}}}
+[9/5/2026 21:31:42] [CRITICAL] received response code : "MANAGE_AGENT"
+[9/5/2026 21:32:45] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:33:59] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:34:42] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:35:59] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:36:2] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:36:59] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:37:58] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:38:2] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketOnEnd (node:_http_client:542:5)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+[9/5/2026 21:38:59] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:39:2] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:40:11] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:41:2] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:42:45] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:42:59] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:43:11] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:44:2] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:45:19] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:45:42] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketOnEnd (node:_http_client:542:5)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+[9/5/2026 21:45:49] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:45:59] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:46:41] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:47:59] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:48:2] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:48:51] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:48:59] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:49:59] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:50:14] [ERROR] Error occured for in /arh/trace request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:51:45] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:51:58] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketOnEnd (node:_http_client:542:5)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+[9/5/2026 21:52:1] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:52:45] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:53:47] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketOnEnd (node:_http_client:542:5)
+    at TLSSocket.emit (node:events:536:35)
+    at TLSSocket.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+[9/5/2026 21:53:58] [CRITICAL] received empty response data for /arh/nvm request 
+[9/5/2026 21:54:3] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[9/5/2026 21:55:2] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (D:\git projects\classroom-management-pern\server\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:524:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:524:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
